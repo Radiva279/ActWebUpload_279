@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unggah File Sederhana</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-indigo-50 min-h-screen flex items-center justify-center p-4">
+
+    <div class="bg-white rounded-2xl shadow-xl p-8 max-w-xl w-full text-center">
+        <h2 class="text-2xl font-bold text-gray-800 mb-1">Unggah Lampiran</h2>
+        <p class="text-sm text-gray-500 mb-6">Format yang didukung: JPG, JPEG, PNG, GIF (Maks. 5MB)</p>
+
+        <form action="upload.php" method="post" enctype="multipart/form-data" class="space-y-6">
+            
+            <label for="fileToUpload" class="border-2 border-dashed border-blue-400 rounded-xl px-4 py-8 flex flex-col items-center justify-center cursor-pointer hover:bg-blue-50 transition group">
+                <div class="text-gray-400 group-hover:text-blue-500 mb-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 002-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                </div>
+                <span class="text-sm text-gray-600 font-medium" id="file-label">Klik atau seret gambar ke sini</span>
+                <input type="file" name="fileToUpload" id="fileToUpload" accept="image/png, image/jpeg, image/jpg, image/gif" class="hidden" required onchange="previewImage(event)">
+            </label>
+
+            <div class="text-left">
+                <span class="text-sm font-semibold text-gray-700 block mb-2">Pratinjau Gambar :</span>
+                <div id="imagePreviewContainer" class="border border-gray-200 rounded-xl p-2 bg-gray-50 hidden flex justify-center">
+                    <img id="output" class="max-h-48 rounded-lg object-contain">
+                </div>
+            </div>
+
+            <button type="submit" name="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-4 rounded-xl transition duration-200 shadow-md">
+                Unggah Sekarang
+            </button>
+        </form>
+
+        <div class="mt-4">
+            <a href="lihat_file.php" class="text-xs text-blue-500 hover:underline">Lihat Daftar Berkas Terunggah</a>
+        </div>
+    </div>
+
+    <script>
+        function previewImage(event) {
+            const reader = new FileReader();
+            const imageField = document.getElementById('output');
+            const container = document.getElementById('imagePreviewContainer');
+            const label = document.getElementById('file-label');
+
+            reader.onload = function() {
+                if (reader.readyState === 2) {
+                    imageField.src = reader.result;
+                    container.classList.remove('hidden');
+                    label.textContent = event.target.files[0].name;
+                }
+            }
+            if(event.target.files[0]) {
+                reader.readAsDataURL(event.target.files[0]);
+            }
+        }
+    </script>
+</body>
+</html>
