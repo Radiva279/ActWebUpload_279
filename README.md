@@ -1,12 +1,7 @@
-<img width="1920" height="1200" alt="Cuplikan layar 2026-05-20 153240" src="https://github.com/user-attachments/assets/21b15f87-b46d-4619-827a-df773f8da1e8" />
-<img width="1920" height="1200" alt="Cuplikan layar 2026-05-20 153233" src="https://github.com/user-attachments/assets/dbddc78b-20e3-429b-b152-16598591b667" />
-<img width="1920" height="1200" alt="Cuplikan layar 2026-05-20 153150" src="https://github.com/user-attachments/assets/352b632d-c1a7-4244-ba1d-44961d3c0851" />
-<img width="1920" height="1200" alt="Cuplikan layar 2026-05-20 153141" src="https://github.com/user-attachments/assets/3c373f36-1ba8-40ff-9795-e17ca266b8cc" />
-<img width="1920" height="1200" alt="Cuplikan layar 2026-05-20 153131" src="https://github.com/user-attachments/assets/485f67df-f3d3-410b-9520-368d55893f64" />
-<img width="1920" height="1200" alt="Cuplikan layar 2026-05-20 153309" src="https://github.com/user-attachments/assets/ac16ff74-4265-49bf-aebd-21012a25d7e3" />
-<img width="1920" height="1200" alt="Cuplikan layar 2026-05-20 153303" src="https://github.com/user-attachments/assets/8dda4de5-c874-43df-bad6-3e984f00b43c" />
-<img width="1920" height="1200" alt="Cuplikan layar 2026-05-20 153254" src="https://github.com/user-attachments/assets/26553daa-4eb1-48f1-837e-55a965e7b50c" />
-<img width="1920" height="1200" alt="Cuplikan layar 2026-05-20 153247" src="https://github.com/user-attachments/assets/748d90e8-6ede-4b5c-a0c1-8d0c15c05697" />
-<img width="1920" height="1200" alt="Cuplikan layar 2026-05-20 153119" src="https://github.com/user-attachments/assets/4a7aff92-bbf4-411b-a0a4-5e277385e2c7" />
-<img width="1920" height="1200" alt="Cuplikan layar 2026-05-20 153106" src="https://github.com/user-attachments/assets/2fbf2799-ab26-42f3-b991-887bc8483080" />
-<img width="1920" height="1200" alt="Cuplikan layar 2026-05-20 151159" src="https://github.com/user-attachments/assets/80673ccf-5a56-4ead-b8cf-1166af9410aa" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/dbbb98fc-9cda-4e57-bc6e-697cdbbfdace" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/3c5f2317-e988-4b1a-a062-c6dc61ba4b17" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/14ad2686-e70e-422f-b17a-c2b8e24ad399" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/476023af-61f8-4e14-865c-f428f6bced38" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/a7fa9f47-0472-4eaf-b63f-3c10774477cf" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/ee859778-972f-4838-ad00-d4546367ff86" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/2be3bfd2-c160-408b-b1d3-c33205d3d81f" />
